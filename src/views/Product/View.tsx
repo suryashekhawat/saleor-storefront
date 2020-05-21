@@ -6,8 +6,8 @@ import React, { useEffect, useState } from "react";
 import { RouteComponentProps } from "react-router";
 import { useHistory } from "react-router-dom";
 
-import { CountryCode } from "@sdk/gqlTypes/globalTypes";
-import { useCart, useUserDetails } from "@sdk/react";
+import { CountryCode } from "@saleor/sdk/gqlTypes/globalTypes";
+import { useCart, useUserDetails } from "@saleor/sdk/react";
 
 import { MetaWrapper, NotFound, OfflinePlaceholder } from "../../components";
 import NetworkStatus from "../../components/NetworkStatus";
